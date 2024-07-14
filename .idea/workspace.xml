@@ -9,23 +9,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="66c3dd21-170d-466e-b8f9-d5f49cab17ac" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/RockPaper_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/META-INF/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zakaria/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zakaria/Computer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zakaria/Help.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zakaria/InputValidation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zakaria/Result.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/zakaria/AppTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="66c3dd21-170d-466e-b8f9-d5f49cab17ac" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
