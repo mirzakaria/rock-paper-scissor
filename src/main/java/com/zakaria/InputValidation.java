@@ -46,7 +46,7 @@ public class InputValidation {
         }
 
         int userIn = Integer.parseInt(s) - 1;
-        if (userIn > 0 && userIn < args.length) {
+        if (userIn >= 0 && userIn < args.length) {
             return userIn;
 
         } else {

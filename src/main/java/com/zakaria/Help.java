@@ -36,7 +36,7 @@ public class Help {
         asciiTable.addRow(header);
         asciiTable.addRule();
 
-        System.out.println("header " +header.size());
+//        System.out.println("header " +header.size());
 
         for (int i = 0; i < n; i++) {
             List<String> res = createResultList(i, args);
