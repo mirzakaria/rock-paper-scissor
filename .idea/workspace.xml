@@ -11,10 +11,13 @@
   <component name="ChangeListManager">
     <list default="true" id="66c3dd21-170d-466e-b8f9-d5f49cab17ac" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/RockPaper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/RockPaper.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/zakaria/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zakaria/App.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/zakaria/Help.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zakaria/Help.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/zakaria/InputValidation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zakaria/InputValidation.java" afterDir="false" />
+=======
+>>>>>>> origin/main
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
