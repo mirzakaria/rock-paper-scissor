@@ -12,7 +12,7 @@ public class Computer {
     creating hmac, computer moves etc.
      */
 
-    private final int keySize = 256;
+    private final int keyLength = 32; //256 bits = 32 bytes
     private String key;
     private String hmac;
     public String getKey() {
@@ -24,15 +24,13 @@ public class Computer {
         for (byte b : bytes) {
             sb.append(String.format("%02x", b));
         }
-//        System.out.println(sb);
         return sb.toString();
     }
 
     private String generateKey() {
         SecureRandom random = new SecureRandom();
-        byte[] key = new byte[keySize];
+        byte[] key = new byte[keyLength];
         random.nextBytes(key);
-//        System.out.println(bytesToHex(key));
         return bytesToHex(key);
     }
 

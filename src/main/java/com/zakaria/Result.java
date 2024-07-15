@@ -6,6 +6,7 @@ public class Result {
     half of the next moves in the circle wins,
     half of the previous moves in the circle lose
      */
+    Computer computer = new Computer();
 
     public void calculateResult(int comMove, int userMove, String[] args) {
         System.out.println("Your move: " + args[userMove]);
@@ -13,7 +14,7 @@ public class Result {
 
         int mid = args.length / 2;
         int res = (int) Math.signum((comMove - userMove + mid + args.length) % args.length - mid);
-        System.out.println("result" + res);
+//        System.out.println("result" + res);
 
         if (res < 0) {
             System.out.println("You win!");
@@ -24,7 +25,5 @@ public class Result {
         }
 
     }
-
-
 
 }

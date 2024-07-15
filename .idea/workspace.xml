@@ -9,7 +9,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="66c3dd21-170d-466e-b8f9-d5f49cab17ac" name="Changes" comment="" />
+    <list default="true" id="66c3dd21-170d-466e-b8f9-d5f49cab17ac" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/RockPaper_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/RockPaper_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RockPaper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/RockPaper.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zakaria/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zakaria/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zakaria/Computer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zakaria/Computer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zakaria/Help.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zakaria/Help.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zakaria/InputValidation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zakaria/InputValidation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zakaria/Result.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zakaria/Result.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -36,18 +46,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Zakaria/OneDrive/Desktop/RockPaper&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Artifacts&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/Users/Zakaria/OneDrive/Desktop/RockPaper",
+    "project.structure.last.edited": "Artifacts",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "MavenSettings"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.zakaria.App" />

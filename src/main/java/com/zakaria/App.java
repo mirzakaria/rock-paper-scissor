@@ -10,14 +10,21 @@ import java.util.Scanner;
  *
  */
 public class App {
+    public static void main(String[] args) throws NoSuchAlgorithmException, InvalidKeyException {
+//        System.out.println(args[0]);
+        App.startApp(args);
+
+    }
+
     public static void showMenu(String[] arr) {
-        InputValidation user = new InputValidation();
+//        InputValidation user = new InputValidation();
         System.out.println("Available Moves:");
         for (int i = 0; i < arr.length; i++) {
             System.out.println(i+1 + " - " + arr[i]);
         }
         System.out.println("0 - exit");
         System.out.println("? - help");
+        System.out.println();
     }
 
     public static void startApp(String[] args) throws NoSuchAlgorithmException, InvalidKeyException {
@@ -31,7 +38,6 @@ public class App {
         String computerMove = "";
         String hmac;
         key = computer.getKey();
-//            System.out.println(key);
         computerMove = computer.generateMove(args);
         hmac = computer.generateHmac("HmacSHA256", computerMove, key);
 
@@ -44,13 +50,13 @@ public class App {
 
         Result result = new Result();
         result.calculateResult(comIn, userIn, args);
-//        System.out.println("Computer move: " + computerMove);
-
+        App.verifyComputerMove(key);
     }
 
-    public static void main(String[] args) throws NoSuchAlgorithmException, InvalidKeyException {
-//        System.out.println(args[0]);
-        App.startApp(args);
-
+    public static void verifyComputerMove(String key) {
+        System.out.println("\nHMAC key: " + key);
+        System.out.println("Verify computer move(select SHA256 algorithm): https://www.freeformatter.com/hmac-generator.html");
+        System.out.println();
     }
+
 }

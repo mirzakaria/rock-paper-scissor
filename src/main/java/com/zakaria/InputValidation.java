@@ -1,9 +1,6 @@
 package com.zakaria;
 
-import java.util.HashSet;
-import java.util.List;
-import java.util.Scanner;
-import java.util.Set;
+import java.util.*;
 
 public class InputValidation {
     public boolean isOddAndMoreThanTwo(String[] arr) {
@@ -35,21 +32,28 @@ public class InputValidation {
     }
 
     public int getUserInputAndValidate(String[] args) {
+        Help help = new Help();
+
         Scanner in = new Scanner(System.in);
         System.out.print("Enter your move: ");
         String s = in.nextLine();
-        if (s.equals("0")) System.exit(0);
+        if (s.equals("0")) {
+            System.exit(0);
+        } else if (s.equals("?")) {
+            help.printHelpTable(args);
+            System.out.print("Enter your move: ");
+            s = in.nextLine();
+        }
+
         int userIn = Integer.parseInt(s) - 1;
-        if (userIn < 0 || userIn >= args.length) {
+        if (userIn > 0 && userIn < args.length) {
+            return userIn;
+
+        } else {
             System.out.println("Wrong move! Try Again");
             App.showMenu(args);
-            getUserInputAndValidate(args);
-//            System.out.println("HMAC key : " + ComputerGenerated.bytesToHex(key.getBytes()));
+            return getUserInputAndValidate(args);
         }
-        if (s.equals("?")) {
-            System.out.println("Help");
-        }
-        return userIn;
     }
 
 }
